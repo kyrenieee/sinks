@@ -1,6 +1,7 @@
 /* Outdated CSS */
 body {
-    font-family: Arial, sans-serif;
+    color: white;
+    background-color: #323a45;
     margin: 0px;
     padding: 0;
 }
@@ -10,8 +11,11 @@ main {
     margin-left: 20px;
 }
 
-h1 {
-    margin: 0;
+h1{
+    font-family: 'Poppins';
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 ul {
@@ -40,15 +44,18 @@ table {
 }
 
 .navbar ul{
+    display: flex;
+    align-content: right;
     list-style-type: none;
-    background-color: azure;
+    background-color:#323a45;
     padding: 0px;
     margin: 0px;
     overflow: hidden;
+    float: right;
 }
 
 .navbar a{
-    color: black;
+    color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -56,10 +63,10 @@ table {
 }
 
 .navbar a:hover{
-    background-color: blueviolet;
+    background-color: #5faeb6;
 }
 
 .navbar li{
-    float: left;
+    float: right;
 }
 
