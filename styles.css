@@ -4,12 +4,24 @@ body {
     background-color: #323a45;
     margin: 0px;
     padding: 0;
+    font-family: 'Poppins';
 }
 
 main {
     margin-right: 20px;
     margin-left: 20px;
 }
+
+
+
+header {
+    display: flex;
+    margin-inline-start: 1%;
+    padding: 5px;
+    justify-content: space-between;
+    margin-inline-end: 5%;
+}
+
 
 h1{
     font-family: 'Poppins';
@@ -18,19 +30,12 @@ h1{
     margin-bottom: 5px;
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    margin: 0;
-    padding: 0;
-}
 
 p {
-    margin: 0;
-    padding: 0;
+    font-family: 'Poppins';
+    font-size: 15px;
+    margin-top: 1px;
+    margin-bottom: 5px;
 }
 
 img {
@@ -43,15 +48,29 @@ table {
     border-collapse: collapse;
 }
 
-.navbar ul{
+.navbar{
     display: flex;
-    align-content: right;
     list-style-type: none;
-    background-color:#323a45;
+    background-color: #323a45;
     padding: 0px;
+    padding-inline-end: 20px;
     margin: 0px;
     overflow: hidden;
-    float: right;
+    
+}
+.navbar ul{
+    list-style-type: none;
+    font-size: 12px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 5%;
+    margin-inline-end: 10%;
+    margin-top: 5%;
+    padding-inline-start: 20px;
+    unicode-bidi: isolate;
+    justify-content: space-evenly;
+    flex-direction: row;
+    display: flex;
 }
 
 .navbar a{
@@ -62,11 +81,10 @@ table {
     text-align: center;
 }
 
+.navbar li{
+    width: 125px;
+}
+
 .navbar a:hover{
     background-color: #5faeb6;
 }
-
-.navbar li{
-    float: right;
-}
-
